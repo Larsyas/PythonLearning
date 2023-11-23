@@ -17,12 +17,14 @@ class Carrinho():
             print(produto.nome, produto.preco)
         print()
 
+
 class Produto():
     def __init__(self, nome, preco):
         self.nome = nome
         self.preco = preco
 
 #######################################
+
 
 carrinho = Carrinho()
 p1, p2 = Produto('Caneta', 1.50), Produto('Porshe GTR 911 Turbo', 2000000)
